@@ -1,0 +1,7 @@
+[flake8]
+# 将行长度限制从79增加到120字符
+max-line-length = 120
+# 忽略一些不影响代码质量的警告
+ignore = E203, W503
+# 递归检查所有Python文件
+exclude = .git,__pycache__,.env
